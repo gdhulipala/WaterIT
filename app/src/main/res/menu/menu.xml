@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.ganga.drinkwater">
+    <item
+        android:id="@+id/action_history"
+        android:title="History"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/outline_sortwhite18dp"
+        />
+
+    <item
+        android:id="@+id/action_increment"
+        android:title="Average"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_wineglass"
+        app:showAsAction="always"
+        />
+    <item
+
+        android:id="@+id/delete"
+        android:title="Decrement"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_averagecups"
+        android:title="Average"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_averagemath"
+        app:showAsAction="always"
+        />
+
+
+</menu>

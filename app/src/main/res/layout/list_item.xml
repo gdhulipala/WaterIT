@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="58dp"
+        android:layout_height="49dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launch_greyglas"
+
+       />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#2B3D4D"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            tools:text="13 May 2018"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Cups: "
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#616161"
+            />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:text="32"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        />
+
+</LinearLayout>
+
+
+
